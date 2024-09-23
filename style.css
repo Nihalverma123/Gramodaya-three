@@ -1,0 +1,188 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar1{
+
+  height: 18vh;
+}
+ .h4style{
+
+  margin-left: 12vw;
+  margin-top: -10vh;
+ }
+ @media (max-width: 768px){
+  .h4style{
+font-size: 5vw;
+    margin-left: 25vw;
+    margin-top: -10vh;
+   }
+ }
+.navbar-nav{
+
+
+    width: 100%;
+    justify-content: center;
+}
+.carousel-image {
+  height: calc(100vh - 175px); /* Adjust based on your navbar height */
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: calc(50vh - 85px); /* Adjust for smaller screens */
+  }
+}
+
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+
+
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.card {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+}
+
+.card-img-top {
+  height: 50vh; /* Adjust the height as needed */
+   object-fit: cover; 
+} 
+
+  
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.image-section{
+margin-top: 5vh;
+  max-width: 100%;
+  height: 40vh;
+  width: 100%;
+}
+.box--style{
+width: 90vw;
+height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 8vw;
+  margin-bottom: 3vh;
+}
+
+
+@media (max-width: 576px){
+ 
+  .box--style{
+
+    box-shadow: none;
+    margin-left: 4vw;
+    height: 100vh;
+  }
+  .maps{
+
+    width: 80vw;
+  }
+  
+ 
+
+  @media only screen and (min-width: 300px) and (max-width: 767px){
+.mage1{
+  display: block;
+    display: flex;
+    overflow-x: scroll; 
+    white-space: nowrap
+}
+    
+    
+  }
+  .h1pstyle{
+    margin-left: -28vw;
+  }
+}
+
+.h1styleac{
+
+  margin-left: 7vw;
+  margin-bottom: 3vh;
+}
+.style-p{
+
+  width: 26vw;
+}
+.input-left{
+
+
+  height: 3vh;
+  width: 40vw;
+}
+.h1pstyle{
+
+  display: flex;
+  
+ 
+  justify-content: center;
+  flex-direction: column;
+}
+.starp{
+
+  margin-left: 46vw;
+}
+.starh1{
+  margin-left: 38vw;
+}
+.logo3{
+
+  height: 15vh;
+  width: 8vw;
+  margin-top: 4vh;
+}
+@media (max-width: 576px){
+
+  .logo3{
+
+    height: 12vh;
+    width: 16vw;
+    margin-top: 1vh;
+  }
+
+}
+.logo4{
+
+  height: 15vh;
+  width: 7vw;
+  margin-top: 2vh;
+  margin-left: 3vw;
+}
+@media (max-width: 576px){
+
+  .logo4{
+
+    height: 12vh;
+    width: 18vw;
+    margin-top: 2vh;
+    margin-left: 3vw;
+  }
+  .bottam-container{
+margin-left: 0vw;
+   
+  }
+}
