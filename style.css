@@ -1,188 +1,180 @@
+
+
 *{
 
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 .navbar1{
 
-  height: 18vh;
+  height: 20vh;
 }
- .h4style{
-
-  margin-left: 12vw;
-  margin-top: -10vh;
+.logo4{
+  height: 16vh;
+  width: 9vw;
+  margin-top: 2vh;
+}
+.h4style{
+  margin-left: 11vw;
+  margin-top: -9vh;
  }
- @media (max-width: 768px){
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .navbar1{
+
+width: 100%;
+height: 13vh;
+  }
+  .logo4{
+    height: 8vh;
+    width: 12vw;
+    margin-top: 2vh;
+  }
   .h4style{
-font-size: 5vw;
-    margin-left: 25vw;
-    margin-top: -10vh;
+    margin-left: 14vw;
+    margin-top: -7vh;
+    font-size: 4vw;
    }
- }
-.navbar-nav{
-
-
-    width: 100%;
-    justify-content: center;
+  
 }
 .carousel-image {
-  height: calc(100vh - 175px); /* Adjust based on your navbar height */
-  object-fit: cover;
+  /* height: calc(100vh -300px); */
+   /* Adjust the 80px to account for any fixed headers or other elements */
+   height: 70vh;
+   width: 90vw;
 }
+@media only screen and (min-width: 300px) and (max-width: 767px){
+
+  .carousel-image{
+
+    height: 50vh;
+    width: 100%;
+
+  }
+
+}
+/* about section-upper */
+@media only screen and (min-width: 300px) and (max-width: 767px){
+
+  .card{
+    width: 100%;
+    height: 45vh;
+  }
+  .card-body{
+    width: 100%;
+    height: 45vh;
+  }
+
+}
+
+/* about section-lower */
+
+.about-image{
+  height: 45vh;
+  width: 45vw;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .about-image{
+    height: 45vh;
+    width: 100%;
+  }
+
+}
+
+
+
+.image1{
+  width: 18vw;
+  height: 25vh;
+ 
+}
+
 
 @media (max-width: 768px) {
-  .carousel-image {
-    height: calc(50vh - 85px); /* Adjust for smaller screens */
+  .image1 {
+    width: 100%;
+    height: 25vh;
   }
 }
+.item{
 
-
-.scroll-container::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
-}
-
-
-
-
-.scroll-container {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-.card {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-@media (min-width: 768px) {
-  .card {
-      flex: 0 0 50%;
-      max-width: 50%;
-  }
-}
-
-.card-img-top {
-  height: 50vh; /* Adjust the height as needed */
-   object-fit: cover; 
-} 
-
-  
-  .scroll-container {
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-.image-section{
-margin-top: 5vh;
-  max-width: 100%;
-  height: 40vh;
-  width: 100%;
-}
-.box--style{
-width: 90vw;
-height: 50vh;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-left: 8vw;
-  margin-bottom: 3vh;
-}
-
-
-@media (max-width: 576px){
  
-  .box--style{
-
-    box-shadow: none;
-    margin-left: 4vw;
-    height: 100vh;
-  }
-  .maps{
-
-    width: 80vw;
-  }
-  
+  height: 30vh;
+  width:18vw ;
  
-
-  @media only screen and (min-width: 300px) and (max-width: 767px){
-.mage1{
-  display: block;
-    display: flex;
-    overflow-x: scroll; 
-    white-space: nowrap
 }
-    
-    
-  }
-  .h1pstyle{
-    margin-left: -28vw;
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .item{
+
+   
+    height: 30vh;
+    width:100% ;
   }
 }
+/* achivement-section */
 
+.cardstyle{
+  border: none;
+  margin-top: 20vh;
+}
+
+/* blog-section */
 .h1styleac{
-
-  margin-left: 7vw;
-  margin-bottom: 3vh;
+  margin-left: 8vw;
+  margin-top: -2vh;
 }
-.style-p{
-
-  width: 26vw;
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .h1styleac{
+    margin-left: 12vw;
+  }
 }
-.input-left{
 
-
-  height: 3vh;
-  width: 40vw;
-}
-.h1pstyle{
-
-  display: flex;
-  
- 
-  justify-content: center;
-  flex-direction: column;
-}
+/* Star-section */
 .starp{
 
-  margin-left: 46vw;
+  margin-left: 45vw;
 }
 .starh1{
   margin-left: 38vw;
 }
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .starp{
+
+    margin-left: 35vw;
+    font-size: 20px;
+  }
+  .starh1{
+    margin-left: 20vw;
+  }
+}
+/* Star-section */
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .maps{
+
+width: 100%;
+
+
+  }
+
+}
+
+
+/* footer */
+
 .logo3{
-
-  height: 15vh;
-  width: 8vw;
-  margin-top: 4vh;
-}
-@media (max-width: 576px){
-
-  .logo3{
-
-    height: 12vh;
-    width: 16vw;
-    margin-top: 1vh;
-  }
-
-}
-.logo4{
-
-  height: 15vh;
-  width: 7vw;
+  height: 16vh;
+  width: 9vw;
   margin-top: 2vh;
-  margin-left: 3vw;
 }
-@media (max-width: 576px){
 
-  .logo4{
-
-    height: 12vh;
-    width: 18vw;
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .logo3{
+    height: 8vh;
+    width: 16vw;
     margin-top: 2vh;
-    margin-left: 3vw;
-  }
-  .bottam-container{
-margin-left: 0vw;
-   
+    object-fit: cover;
   }
 }
+
+
