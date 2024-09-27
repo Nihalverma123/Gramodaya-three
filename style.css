@@ -19,10 +19,31 @@
   margin-left: 11vw;
   margin-top: -9vh;
  }
+/* hero section */
+
+
+.owl-carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ 
+@media (max-width: 575.98px) { 
+.carousel-image{
+
+  height: 30vh;
+}
+
+ }
+
+ 
+
+
 @media only screen and (min-width: 300px) and (max-width: 767px){
   .navbar1{
 
-width: 100%;
+/* width: 100%; */
 height: 13vh;
   }
   .logo4{
@@ -37,35 +58,12 @@ height: 13vh;
    }
   
 }
-.carousel-image {
-  /* height: calc(100vh -300px); */
-   /* Adjust the 80px to account for any fixed headers or other elements */
-   height: 70vh;
-   width: 90vw;
-}
-@media only screen and (min-width: 300px) and (max-width: 767px){
 
-  .carousel-image{
 
-    height: 50vh;
-    width: 100%;
-
-  }
-
-}
 /* about section-upper */
-@media only screen and (min-width: 300px) and (max-width: 767px){
 
-  .card{
-    width: 100%;
-    height: 45vh;
-  }
-  .card-body{
-    width: 100%;
-    height: 45vh;
-  }
 
-}
+
 
 /* about section-lower */
 
@@ -91,7 +89,7 @@ height: 13vh;
 }
 
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   .image1 {
     width: 100%;
     height: 25vh;
@@ -124,6 +122,14 @@ height: 13vh;
   margin-left: 8vw;
   margin-top: -2vh;
 }
+/* logo section */
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .logo-section{
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 767px){
   .h1styleac{
     margin-left: 12vw;
